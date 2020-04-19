@@ -192,7 +192,10 @@
 
 		{
 			"name": "Entity",
-			"scope": ["support.type.property-name.json"],
+			"scope": [
+				"support.type.property-name.json",
+				"entity.name.function"
+			],
 			"settings":
 			{
 				"foreground": "#6699CC"
