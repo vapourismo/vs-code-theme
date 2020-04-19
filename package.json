@@ -1,0 +1,21 @@
+{
+    "name": "vapou-theme",
+    "displayName": "Ole's Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ole's Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/theme.json"
+            }
+        ]
+    }
+}
