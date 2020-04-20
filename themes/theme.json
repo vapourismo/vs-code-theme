@@ -114,7 +114,7 @@
 		"statusBarItem.prominentHoverBackground": "#6C6F93",
 		"tab.activeBorder": "#E95378",
 		"tab.border": "#1C1E2600",
-		"tab.inactiveBackground": "#1C1E26",
+		"tab.inactiveBackground": "#212121",
 		"terminal.ansiBlue": "#26BBD9",
 		"terminal.ansiBrightBlue": "#3FC4DE",
 		"terminal.ansiBrightCyan": "#6BE4E6",
