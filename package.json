@@ -1,6 +1,7 @@
 {
     "name": "theme",
     "displayName": "Vapou's Theme",
+    "publisher": "ole",
     "description": "",
     "version": "0.0.1",
     "engines": {
