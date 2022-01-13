@@ -17,7 +17,7 @@
 		"dropdown.background": "#232530",
 		"dropdown.listBackground": "#2E303E",
 		"editor.background": "#1a1a1a",
-		"editor.foreground": "#efefef",
+		"editor.foreground": "#ffffff",
 		"editor.findMatchBackground": "#6C6F9380",
 		"editor.findMatchHighlightBackground": "#6C6F934D",
 		"editor.findRangeHighlightBackground": "#6C6F931A",
@@ -145,72 +145,68 @@
 				"meta.declaration.exports.haskell entity.name.function.haskell",
 				"meta.declaration.exports.haskell entity.name.function.infix.haskell"
 			],
-			"settings":
-			{
+			"settings": {
 				"foreground": "#efefef"
 			}
 		},
-
 		{
 			"name": "Comment",
 			"scope": [
-				"comment", "meta.preprocessor.haskell"
+				"comment",
+				"meta.preprocessor.haskell"
 			],
-			"settings":
-			{
+			"settings": {
 				"foreground": "#666666"
 			}
 		},
-
 		{
 			"name": "Comment Section",
-			"scope": ["comment.section"],
-			"settings":
-			{
+			"scope": [
+				"comment.section"
+			],
+			"settings": {
 				"foreground": "#996666",
 				"fontStyle": "bold"
 			}
 		},
-
 		{
 			"name": "Comment Quote",
-			"scope": ["comment.quote"],
-			"settings":
-			{
+			"scope": [
+				"comment.quote"
+			],
+			"settings": {
 				"foreground": "#b5b5b5"
 			}
 		},
-
 		{
 			"name": "Constant",
-			"scope": ["constant.numeric", "string"],
-			"settings":
-			{
+			"scope": [
+				"constant.numeric",
+				"string"
+			],
+			"settings": {
 				"foreground": "#88A04A"
 			}
 		},
-
 		{
 			"name": "Entity",
 			"scope": [
 				"support.type.property-name.json",
 				"entity.name.function"
 			],
-			"settings":
-			{
+			"settings": {
 				"foreground": "#6699CC"
 			}
 		},
-
 		{
 			"name": "Keyword",
-			"scope": ["keyword"],
-			"settings":
-			{
+			"scope": [
+				"keyword"
+			],
+			"settings": {
 				"foreground": "#B14744"
 			}
 		},
-
 		{
 			"name": "Storage",
 			"scope": [
@@ -222,35 +218,34 @@
 				"support.constant.unit.haskell",
 				"constant.language.unit.haskell"
 			],
-			"settings":
-			{
+			"settings": {
 				"foreground": "#D69876"
 			}
 		},
-
 		{
 			"name": "Storage Modifier",
-			"scope": ["storage.type.modifier"],
-			"settings":
-			{
+			"scope": [
+				"storage.type.modifier"
+			],
+			"settings": {
 				"foreground": "#A5346D"
 			}
 		},
-
 		{
 			"name": "Diff Addition",
-			"scope": ["diff.addition"],
-			"settings":
-			{
+			"scope": [
+				"diff.addition"
+			],
+			"settings": {
 				"foreground": "#449944"
 			}
 		},
-
 		{
 			"name": "Diff Deletion",
-			"scope": ["diff.deletion"],
-			"settings":
-			{
+			"scope": [
+				"diff.deletion"
+			],
+			"settings": {
 				"foreground": "#993333"
 			}
 		}
